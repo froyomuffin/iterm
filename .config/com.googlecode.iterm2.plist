@@ -755,46 +755,41 @@
 	<true/>
 	<key>DisableFullscreenTransparency</key>
 	<false/>
+	<key>EliminateCloseButtons</key>
+	<true/>
 	<key>EnableDivisionView</key>
 	<true/>
 	<key>EnableProxyIcon</key>
 	<false/>
 	<key>GlobalKeyMap</key>
 	<dict>
-		<key>0x19-0x60000</key>
-		<dict>
-			<key>Action</key>
-			<integer>39</integer>
-			<key>Text</key>
-			<string></string>
-		</dict>
 		<key>0x5c-0x40000</key>
-		<dict>
-			<key>Action</key>
-			<integer>29</integer>
-			<key>Text</key>
-			<string>CC52F62B-5019-4DFA-8BBC-A9F8EFC89FF0</string>
-		</dict>
-		<key>0x61-0x40000</key>
-		<dict>
-			<key>Action</key>
-			<integer>32</integer>
-			<key>Text</key>
-			<string></string>
-		</dict>
-		<key>0x7c-0x60000</key>
 		<dict>
 			<key>Action</key>
 			<integer>28</integer>
 			<key>Text</key>
 			<string>CC52F62B-5019-4DFA-8BBC-A9F8EFC89FF0</string>
 		</dict>
-		<key>0x9-0x40000</key>
+		<key>0x65-0x40000</key>
 		<dict>
 			<key>Action</key>
-			<integer>32</integer>
+			<integer>0</integer>
 			<key>Text</key>
 			<string></string>
+		</dict>
+		<key>0x71-0x40000</key>
+		<dict>
+			<key>Action</key>
+			<integer>2</integer>
+			<key>Text</key>
+			<string></string>
+		</dict>
+		<key>0x7c-0x60000</key>
+		<dict>
+			<key>Action</key>
+			<integer>29</integer>
+			<key>Text</key>
+			<string>CC52F62B-5019-4DFA-8BBC-A9F8EFC89FF0</string>
 		</dict>
 		<key>0xf700-0x2e0000</key>
 		<dict>
@@ -918,7 +913,7 @@
 	<key>HideTab</key>
 	<false/>
 	<key>HideTabCloseButton</key>
-	<false/>
+	<true/>
 	<key>HotkeyMigratedFromSingleToMulti</key>
 	<true/>
 	<key>JobName</key>
@@ -963,13 +958,17 @@
 	<key>NSWindow Frame SUUpdateAlert</key>
 	<string>490 321 700 622 0 0 1680 1050 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>861 691 796 473 0 0 2560 1440 </string>
+	<string>860 955 796 473 0 0 2560 1440 </string>
 	<key>NSWindow Frame UKCrashReporter</key>
 	<string>230 856 592 584 0 0 2560 1440 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
 	<string>0 0 2560 1440 0 0 2560 1440 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>212 72 570 453 0 0 1680 1050 </string>
+	<key>NeverWarnAboutShortLivedSessions_CC52F62B-5019-4DFA-8BBC-A9F8EFC89FF0</key>
+	<true/>
+	<key>NeverWarnAboutShortLivedSessions_CC52F62B-5019-4DFA-8BBC-A9F8EFC89FF0_selection</key>
+	<integer>0</integer>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -1691,13 +1690,13 @@
 	<key>SmartPlacement</key>
 	<false/>
 	<key>SplitPaneDimmingAmount</key>
-	<real>0.59999999999999998</real>
+	<real>0.10000000000000001</real>
 	<key>StretchTabsToFillBar</key>
 	<false/>
 	<key>TabStyle</key>
 	<integer>1</integer>
 	<key>TabViewType</key>
-	<integer>0</integer>
+	<integer>1</integer>
 	<key>UKCrashReporterLastCrashReportDate</key>
 	<real>1510585984</real>
 	<key>UseBorder</key>
